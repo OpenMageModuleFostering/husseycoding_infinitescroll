@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>HusseyCoding_InfiniteScroll</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
     <channel>community</channel>
     <extends/>
     <summary>Adds SEO friendly infinite scroll functionality to category pages.</summary>
     <description>Adds infinite scroll functionality to category pages making use of _escaped_fragment_ functionality to remain SEO friendly.  New category products are loaded as you scroll towards the bottom of the page.</description>
-    <notes>Initial release.</notes>
+    <notes>Set content request to GET rather than POST</notes>
     <authors><author><name>Hussey Coding</name><user>husseycoding</user><email>info@husseycoding.co.uk</email></author></authors>
-    <date>2015-02-25</date>
-    <time>11:07:53</time>
-    <contents><target name="magecommunity"><dir name="HusseyCoding"><dir name="InfiniteScroll"><dir name="Block"><file name="Init.php" hash="7db4e6f0e7db8f39428891b33492c482"/></dir><dir name="etc"><file name="adminhtml.xml" hash="15ca3c797660ceec34d6834487111db8"/><file name="config.xml" hash="56b595274e1047e3438269474af2bd7d"/><file name="system.xml" hash="a0b0b23c90acf3dec7a120e953f02fba"/></dir><dir name="Helper"><file name="Data.php" hash="b7fbbed1273ed20236f46f637e84ff62"/></dir><dir name="Model"><file name="Observer.php" hash="058febf54d511599a776e66799973af5"/></dir></dir><dir name="Common"><dir name="etc"><file name="system.xml" hash="6c9ba9f227b9adfc9abf97f17b46fdbf"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="HusseyCoding_InfiniteScroll.xml" hash="5609ca99cc8904346e9a2b94d1a9ef21"/><file name="HusseyCoding_Common.xml" hash="31e82d3d9b3179c2fa9e002f9669da47"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="infinitescroll.xml" hash="ea902de6a641b72d9b02a8282de62c79"/></dir><dir name="template"><dir name="infinitescroll"><file name="init.phtml" hash="68c11c9c456d4fecbc6dea2917f6e2c6"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><file name="infinitescroll.js" hash="5ce9fe03f389fd8bd380c32b583f9b42"/></dir><dir name="css"><file name="infinitescroll.css" hash="1ef7cf72905d03ea47d2201878d53970"/></dir><dir name="images"><file name="infinitescroll-loading.gif" hash="e01916be17aa4b1b73a93bb7022f22e4"/></dir></dir></dir></dir></target></contents>
+    <date>2015-03-25</date>
+    <time>17:07:16</time>
+    <contents><target name="magecommunity"><dir name="HusseyCoding"><dir name="InfiniteScroll"><dir name="Block"><file name="Init.php" hash="7db4e6f0e7db8f39428891b33492c482"/></dir><dir name="etc"><file name="adminhtml.xml" hash="15ca3c797660ceec34d6834487111db8"/><file name="config.xml" hash="0ef509f290baa4d66b51b01d8a8f1335"/><file name="system.xml" hash="a0b0b23c90acf3dec7a120e953f02fba"/></dir><dir name="Helper"><file name="Data.php" hash="b7fbbed1273ed20236f46f637e84ff62"/></dir><dir name="Model"><file name="Observer.php" hash="058febf54d511599a776e66799973af5"/></dir></dir><dir name="Common"><dir name="etc"><file name="system.xml" hash="6c9ba9f227b9adfc9abf97f17b46fdbf"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="HusseyCoding_InfiniteScroll.xml" hash="5609ca99cc8904346e9a2b94d1a9ef21"/><file name="HusseyCoding_Common.xml" hash="31e82d3d9b3179c2fa9e002f9669da47"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="infinitescroll.xml" hash="ea902de6a641b72d9b02a8282de62c79"/></dir><dir name="template"><dir name="infinitescroll"><file name="init.phtml" hash="68c11c9c456d4fecbc6dea2917f6e2c6"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><file name="infinitescroll.js" hash="cbfb1417c2d42e35a112f9c8ffdae28d"/></dir><dir name="css"><file name="infinitescroll.css" hash="1ef7cf72905d03ea47d2201878d53970"/></dir><dir name="images"><file name="infinitescroll-loading.gif" hash="e01916be17aa4b1b73a93bb7022f22e4"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
