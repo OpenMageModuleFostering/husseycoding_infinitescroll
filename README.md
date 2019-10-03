@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Adds SEO friendly infinite scroll functionality to category pages.

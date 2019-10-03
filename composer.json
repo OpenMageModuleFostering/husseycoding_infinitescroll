@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/HusseyCoding_InfiniteScroll",
+    "name": "openmage-module-fostering\/husseycoding_infinitescroll",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Adds SEO friendly infinite scroll functionality to category pages.",
     "authors": [
